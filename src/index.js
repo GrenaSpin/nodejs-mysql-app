@@ -1,6 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
-const bodyParser = require('body-parser')
+const bodyParser = require('body-parser');
 const { engine } = require('express-handlebars');
 const path = require('path');
 const flash  = require('connect-flash');
